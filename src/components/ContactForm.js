@@ -21,6 +21,7 @@ const ContactForm = () =>{
             console.log(error.text);
         });
     };
+
     return(
         <div className="form-container">
             <h1>Send a Message to us</h1>
@@ -35,14 +36,6 @@ const ContactForm = () =>{
                 </form>
         </div>
     )
-
-
-
-
-
-
-
-
 }
 
 export default ContactForm;
