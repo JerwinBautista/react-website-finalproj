@@ -3,6 +3,10 @@ import Jewelry1 from "../assets/Jewelry.jpg"
 import Jewelry2 from "../assets/Jewelry2.jpg"
 import Painting1 from "../assets/Painting1.jpg"
 import Painting2 from "../assets/Painting2.jpeg"
+import Bag1 from "../assets/Bag1.jpg"
+import Bag2 from "../assets/Bag2.jpg"
+import Keychain1 from "../assets/Keychain1.jpg"
+import Keychain2 from "../assets/Keychain2.jpg"
 import "./CraftsStyles.css"
 import CraftsData from './CraftsData'
 
@@ -31,6 +35,26 @@ const Crafts = () =>{
         museums, and private homes."
         img1={Painting1}
         img2={Painting2}
+        />
+        <CraftsData 
+        className="first-design"
+        heading="Handmade Bags"
+        text=" Handmade bags are bags that are created by hand, rather than by mass-produced machinery. 
+        They are often made from a variety of materials, including leather, fabric, and recycled materials. 
+        Handmade bags can be simple or elaborate, and they can be used for a variety of purposes, such as 
+        carrying everyday items, traveling, or special occasions. "
+        img1={Bag1}
+        img2={Bag2}
+        />
+        <CraftsData 
+        className="first-design-reverse"
+        heading="Handmade Key Chains"
+        text=" This means that they are unique and one-of-a-kind, and they can be made from a variety of materials, 
+        including metals, gemstones, beads, glass, and polymer clay. People often choose to buy handmade keychains 
+        because they are more personal and special than mass-produced keychains. They can also be a more affordable 
+        option, as they are not subject to the same overhead costs as mass-produced keychains.  "
+        img1={Keychain1}
+        img2={Keychain2}
         />
     </div>
   )
