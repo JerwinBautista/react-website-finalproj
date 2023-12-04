@@ -1,3 +1,5 @@
+import Crafts from "../components/Crafts";
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"
 
 
@@ -6,7 +8,16 @@ function Home() {
         <>
         
         <Navbar />
-        <h1>Welcome to Crafted</h1>
+        <Hero 
+        cName="hero"
+        heroImg="https://i.ytimg.com/vi/Rb1A2wYQWIc/maxresdefault.jpg"
+        title="Welcome to Crafted"
+        text="Your one-stop shop for all things beautifully made"
+        buttonText="See Products"
+        url="/products"
+        btnClass="show"
+        />
+        <Crafts />
         </>
     )
 }
