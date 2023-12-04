@@ -24,12 +24,6 @@ export const MenuItems = [
         icon : "fa-solid fa-cart-shopping"
     },
     {
-        title : "Partners",
-        url : "/partners",
-        cName :  "nav-links",
-        icon : "fa-solid fa-handshake"
-    },
-    {
         title : "Sign Up",
         url : "/",
         cName :  "nav-links-mobile",
