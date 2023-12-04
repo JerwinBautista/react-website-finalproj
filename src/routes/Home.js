@@ -1,6 +1,8 @@
 import Crafts from "../components/Crafts";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"
+import Trivia from "../components/Trivia";
 
 
 function Home() {
@@ -18,6 +20,8 @@ function Home() {
         btnClass="show"
         />
         <Crafts />
+        <Trivia />
+        <Footer />
         </>
     )
 }

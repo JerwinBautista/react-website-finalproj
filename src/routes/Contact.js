@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import AboutImg from '../assets/4444.jpg'
+import Footer from '../components/Footer'
+import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
   return (
@@ -13,6 +15,8 @@ const Contact = () => {
     title="Contact Us"
     btnClass="hide"
     />
+    <ContactForm />
+    <Footer />
     </>
   )
 }

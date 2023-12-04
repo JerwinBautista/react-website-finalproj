@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import AboutImg from '../assets/2222.jpg'
+import Footer from '../components/Footer'
+import AboutUs from '../components/AboutUs'
 const About = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const About = () => {
         title="About Crafted"
         btnClass="hide"
         />
+        <AboutUs />
+        <Footer />
         </>
   )
 }
